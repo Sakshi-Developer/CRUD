@@ -1,0 +1,81 @@
+#logout a{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100px;
+   
+   margin-left: 800px;
+
+}
+.buttons{
+    width: 150px;
+}
+#table{
+    margin-left: 15px;
+}
+#signuphead{
+    background-color: blue !important;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+
+}
+#signupbox{
+    margin-left: 300px;
+    width: 500px;
+    margin-top: -12px;
+}
+#navbar{
+    background-color: blueviolet !important;
+    color: white!important;
+}
+#headbutton a{
+    color: white !important;
+    text-decoration: none;
+}
+#loginbox{
+    margin-top: 60px !important;
+    width: 400px;
+    height: 400px;
+}
+#loginhead{
+    background-color: blue !important;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+
+}
+#loginbutton{
+    margin-left: 140px;
+   
+}
+#welcome{
+    background-color: aquamarine;
+    color: red;
+    border: 1px solid black;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#indexbox{
+    background-color: whitesmoke;
+  
+}
+#updatebox{
+    background-color: blue !important;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+#update{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#submit{
+    margin-left: 140px;
+}
+#logout{
+    margin-bottom: 20px;
+}
+
+
+

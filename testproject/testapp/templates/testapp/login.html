@@ -1,0 +1,42 @@
+{% extends 'testapp/base.html '%}
+
+{% block content %}
+<body style="background-image: url('../media/testback.jpg'); background-repeat: no-repeat; background-size:cover; background-attachment: fixed">
+    <div class="container mt-5">
+        {% if msg %}
+        <div class="alert alert-success">{{msg}}</div>
+
+        {% endif %}
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                <div class="card" id="loginbox" >
+                    <div class="card-header" id="loginhead">Login</div>
+                    <div class="card-body">
+                        <form method="post" enctype="multipart/form-data">
+                                {% csrf_token %}
+                            <div class="mb-3">
+                              <label class="form-label">Username</label>
+                              <input type="text" class="form-control" placeholder="Type Username" name="username">
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Password</label>
+                                <input type="password" class="form-control" placeholder="Type Password" name="password">
+                              </div>
+
+                              
+
+                        
+
+                            <button type="submit" class="btn btn-primary" id="loginbutton">Login</button>
+                          </form>
+
+                          <p>New User ? <a href="../signup/" style=" margin-top: 50px ; "> Create Account</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4"></div>
+
+
+{% endblock %}            
